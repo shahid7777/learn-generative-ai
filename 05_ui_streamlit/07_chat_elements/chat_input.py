@@ -2,6 +2,5 @@
 
 import streamlit as st
 
-prompt = st.chat_input("Say something")
-if prompt:
+if prompt := st.chat_input("Say something"):
     st.write(f"User has sent the following prompt: {prompt}")

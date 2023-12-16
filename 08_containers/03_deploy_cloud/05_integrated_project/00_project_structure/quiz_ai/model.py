@@ -3,7 +3,7 @@ class Topic:
         self.topicID: str = topicID
         self.title: str = title
         self.desc: str = desc
-        self.questions: list[Question] = list()
+        self.questions: list[Question] = []
 
 
 class Question:
